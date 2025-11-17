@@ -1,28 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Quote Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="flex flex-col min-h-screen bg-gradient-to-br from-gray-900 via-indigo-900 to-purple-800 text-white">
+    <!-- Header Section -->
+    <header class="flex justify-center items-center py-8">
+      <button class="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-full shadow-lg hover:scale-105 transform transition duration-300">
+        Get Quote
+      </button>
+    </header>
 
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-gray-900 via-indigo-900 to-purple-800 text-white">
-      {/* Header Section */}
-      <header className="flex justify-center items-center py-8">
-        <button className="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-full shadow-lg hover:scale-105 transform transition duration-300">
-          Get Quote
-        </button>
-      </header>
+    <!-- Content Section -->
+    <main class="flex-1 flex items-center justify-center p-6">
+      <div class="max-w-3xl text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-pink-400 to-yellow-400 bg-clip-text text-transparent">
+          Inspiration Awaits
+        </h1>
+        <p class="text-lg md:text-xl text-gray-200 leading-relaxed">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod nunc
+          vel purus tincidunt, et placerat justo dignissim. Quisque sit amet eros
+          mauris. Integer id nulla ac augue consequat luctus."
+        </p>
+      </div>
+    </main>
 
-      {/* Content Section */}
-      <main className="flex-1 flex items-center justify-center p-6">
-        <div className="max-w-3xl text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-pink-400 to-yellow-400 bg-clip-text text-transparent">
-            Inspiration Awaits
-          </h1>
-          <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod nunc
-            vel purus tincidunt, et placerat justo dignissim. Quisque sit amet eros
-            mauris. Integer id nulla ac augue consequat luctus."
-          </p>
-        </div>
-      </main>
-
-      {/* Footer */}
-      <footer className="text-center py-4 text-gray-400 text-sm">
-        © 2025 Modern Quotes. All rights reserved.
-      </footer>
-    </div>
+    <!-- Footer -->
+    <footer class="text-center py-4 text-gray-400 text-sm">
+      © 2025 Modern Quotes. All rights reserved.
+    </footer>
+  </body>
+</html>
